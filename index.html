@@ -124,7 +124,7 @@
           const productRow = document.createElement("tr");
           productRow.innerHTML = `
             <td><input type="checkbox" id="product-${price.id}" value="${price.id}"></td>
-            <td>${product.name} (${price.billingCycle.interval})</td>
+            <td>${product.name}</td>
             <td>${item.formattedTotals.total}</td>
           `;
           productList.appendChild(productRow);
